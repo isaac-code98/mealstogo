@@ -14,6 +14,8 @@ import {
 } from "@expo-google-fonts/oswald";
 import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
 
+import { restaurantsRequest } from "./src/services/restaurants/restaurants.services";
+
 const Tab = createBottomTabNavigator();
 
 const TAB_ICON = {
